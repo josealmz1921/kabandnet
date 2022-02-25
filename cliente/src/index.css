@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer components{ 
+    
+    .rich-text h2{
+        @apply font-bold text-3xl
+
+    }
+    .rich-text h3{
+        @apply font-semibold text-2xl
+    }
+    .rich-text h4{
+        @apply font-semibold text-lg
+    }
+
+    .rich-text ul{
+        @apply pl-6
+    }
+
+    .rich-text ul li{
+        @apply list-disc
+    }
+
+    .rich-text ol{
+        @apply pl-6
+    }
+
+    .rich-text ol li{
+        @apply list-decimal
+    }
+
+}
