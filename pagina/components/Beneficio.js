@@ -7,6 +7,7 @@ const Beneficio = ({img,title}) => {
                 <Image layout="responsive" src={img} width={200} height={200} />
             </div>
             <p>Hola</p>
+            <p>Cambios en las ramas</p>
             <p className="text-white text-lg sm:text-xl font-semibold text-center">{title ? title : ''}</p>
         </div>
      );
